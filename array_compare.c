@@ -8,12 +8,12 @@ printf("enter the number of elements\n");
 scanf("%d",&n);
 
 for(int i =0;i<n;i++){
-	printf("arr[%d]=\n",arr[i]);
+	printf("arr[%d]= ",i);
 	scanf("%d",&arr[i]);
 }
 
 for(int i =0;i<n;i++){
-	printf("arr[%d]=\n",arr2[i]);
+	printf("arr2[%d]= ",i);
 	scanf("%d",&arr2[i]);
 }
 
